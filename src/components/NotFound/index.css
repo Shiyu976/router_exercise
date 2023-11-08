@@ -1,0 +1,70 @@
+/* HTML, body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: #d96666;
+    height: 100%;
+} */
+
+
+.error-case {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.error-info {
+    position: relative;
+    margin: 0px auto 20px;
+    z-index: -1;
+}
+
+.error-info h1 {
+    font-size: 236px;
+    font-weight: 300;
+    margin: 0px;
+    color: #211b19;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.error-info h2 {
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3b3b3b;
+    background: #fff;
+    background: rgba(255,255,255,0.85);
+    padding: 10px 15px;
+    display: inline-block;
+    position: absolute;
+    bottom: 13px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.error-case a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 13px 23px;
+    background: #ff6c2c;
+    border: 2px solid #ff6c2c;
+    font-size: 26px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.error-case a:hover {
+    background: #fff;
+    color: #ff6c2c;
+}
